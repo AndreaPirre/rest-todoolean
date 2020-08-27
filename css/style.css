@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+body {
+    background-color: lightblue;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+    overflow: auto;
+
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+
+    background: lightblue;
+    color: #fff;
+}
+
+.container > * {
+    margin: auto;
+}
+
+.click {
+    cursor: pointer;
+}
